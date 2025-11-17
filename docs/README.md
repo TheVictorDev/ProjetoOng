@@ -57,19 +57,23 @@ A plataforma foi desenhada para atender às necessidades de diferentes usuários
 
 O projeto está organizado da seguinte forma para manter o código limpo e modular:
 
-/
-├── css/
-│ └── styles.css
-├── js/
-│ └── app.js
-├── images/
-│ └── [imagens do projeto]
-├── docs/
-│ └── README.md
+```bash
 ├── index.html
 ├── projetos.html
 ├── cadastro.html
-└── .gitignore
+├── css
+│   └── styles.css
+├── js
+│   └── app.js
+├── images
+│   ├── logo.png
+│   ├── hero.jpg
+│   ├── project1.jpg
+│   └── project2.jpg
+└── README.md
+```
+
+
 
 ## Como Executar o Projeto
 

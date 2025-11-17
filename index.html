@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ONG - Plataforma</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <header class="header" role="banner">
+    <div class="container topbar" aria-label="Cabeçalho principal">
+      <div class="brand">
+        <img src="images/logo.png" alt="Logotipo da ONG" class="logo" />
+        <div>
+          <strong>ONG Exemplo</strong><br/><small>Conectando causas e pessoas</small>
+        </div>
+      </div>
+      <nav class="nav" role="navigation" aria-label="Navegação principal">
+        <a href="index.html" data-spa>Início</a>
+        <a href="projetos.html" data-spa>Projetos</a>
+        <a href="cadastro.html" data-spa>Cadastro</a>
+      </nav>
+      <button id="hamburger" class="hamburger" aria-label="Abrir menu">☰</button>
+    </div>
+    <div id="mobile-nav" class="mobile-nav container" style="display:none" aria-hidden="true">
+      <a href="index.html" data-spa>Início</a>
+      <a href="projetos.html" data-spa>Projetos</a>
+      <a href="cadastro.html" data-spa>Cadastro</a>
+    </div>
+    <div class="container hero" role="region" aria-label="Apresentação principal">
+      <div>
+        <h1>Plataforma para ONGs</h1>
+        <p>Desenvolvemos ferramentas para aumentar alcance, captar recursos e engajar voluntários.</p>
+        <p><a class="btn" href="cadastro.html" data-spa>Quero me envolver</a></p>
+      </div>
+      <img src="images/hero.jpg" alt="Voluntários em ação" class="hero-img"/>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main" tabindex="-1">
+  <!-- main-start -->
+    <section class="projects" aria-labelledby="sec-projetos">
+      <h2 id="sec-projetos">Projetos em destaque</h2>
+      <div class="grid" role="list">
+        <article class="card" role="listitem" aria-label="Projeto A">
+          <img src="images/project1.jpg" alt="Projeto A - foto"/>
+          <div class="card-body">
+            <h3>Projeto A - Educação</h3>
+            <p>Atividades de reforço escolar e apoio pedagógico para crianças.</p>
+            <p><a class="btn secondary" href="projetos.html" data-spa>Ver projeto</a></p>
+          </div>
+        </article>
+        <article class="card" role="listitem" aria-label="Projeto B">
+          <img src="images/project2.jpg" alt="Projeto B - foto"/>
+          <div class="card-body">
+            <h3>Projeto B - Saúde</h3>
+            <p>Campanhas de saúde preventiva e mutirões médicos.</p>
+            <p><a class="btn secondary" href="projetos.html" data-spa>Ver projeto</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+  <!-- main-end -->
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p>© ONG Exemplo — Transparência e compromisso</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

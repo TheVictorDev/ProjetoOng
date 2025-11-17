@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projetos - ONG</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+  <header class="header" role="banner">
+    <div class="container topbar" aria-label="Cabeçalho principal">
+      <div class="brand">
+        <img src="images/logo.png" alt="Logotipo da ONG" class="logo" />
+        <div>
+          <strong>ONG Exemplo</strong><br/><small>Conectando causas e pessoas</small>
+        </div>
+      </div>
+
+      <nav class="nav" role="navigation">
+        <a href="index.html" data-spa>Início</a>
+        <a href="projetos.html" data-spa>Projetos</a>
+        <a href="cadastro.html" data-spa>Cadastro</a>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Abrir menu">☰</button>
+    </div>
+
+    <div id="mobile-nav" class="mobile-nav container" style="display:none" aria-hidden="true">
+      <a href="index.html" data-spa>Início</a>
+      <a href="projetos.html" data-spa>Projetos</a>
+      <a href="cadastro.html" data-spa>Cadastro</a>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main" tabindex="-1">
+  <!-- main-start -->
+
+    <article class="projects" aria-labelledby="proj-list">
+      <h2 id="proj-list">Lista de Projetos</h2>
+      <p>Explore as oportunidades de voluntariado e apoio.</p>
+
+      <section class="grid" aria-label="Projetos">
+
+        <article class="card" role="article">
+          <img src="images/project1.jpg" alt="Projeto Educação"/>
+          <div class="card-body">
+            <h3>Educação Comunitária</h3>
+            <p>Oficinas, reforço escolar e material pedagógico para crianças.</p>
+            <p><button class="btn">Participar</button></p>
+          </div>
+        </article>
+
+        <article class="card" role="article">
+          <img src="images/project2.jpg" alt="Projeto Saúde"/>
+          <div class="card-body">
+            <h3>Saúde e Bem-estar</h3>
+            <p>Mutirões, campanhas preventivas e atendimento básico.</p>
+            <p><button class="btn">Participar</button></p>
+          </div>
+        </article>
+
+      </section>
+    </article>
+
+  <!-- main-end -->
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p>© ONG Exemplo — Transparência e compromisso</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

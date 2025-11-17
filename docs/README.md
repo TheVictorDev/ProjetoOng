@@ -75,12 +75,11 @@ O projeto está organizado da seguinte forma para manter o código limpo e modul
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/TheVictorDev/ProjetoOng.git
     ```
-2.  **Navegue até a pasta do projeto:**
-    ```bash
-    cd seu-repositorio
-    ```
-3.  **Abra o arquivo `index.html` no seu navegador de preferência.**
+
+2. **Intalar a extensão live server, no visual studio code**
+    botão direito no arquivo `index.html` e abrir com o open live server
+    port: 5500
 
 Pronto! A plataforma estará rodando localmente no seu navegador.

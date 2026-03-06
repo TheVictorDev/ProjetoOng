@@ -26,10 +26,10 @@ A plataforma foi desenhada para atender às necessidades de diferentes usuários
 *   **Formulários Complexos:** A página de cadastro (`cadastro.html`) possui um formulário completo com tipos de input específicos do HTML5 (email, date, tel) e validações nativas (`required`, `pattern`).
 *   **Máscaras de Input:** Foram aplicadas máscaras para os campos de CPF, telefone e CEP para melhorar a experiência do usuário.
 
-### Entrega II – Estilização e Leiautes (CSS3)
+### Entrega II – Estilização e Layout  (CSS3)
 
 *   **Sistema de Design:** Foi criado um Design System coeso utilizando variáveis CSS, com paleta de cores, tipografia hierárquica e sistema de espaçamento modular.
-*   **Leiautes Responsivos:** O design é *mobile-first* e totalmente responsivo, utilizando **CSS Grid** para a estrutura principal e **Flexbox** para componentes internos. Foram definidos múltiplos breakpoints para garantir a adaptação em diferentes tamanhos de tela.
+*   **Layout  Responsivos:** O design é *mobile-first* e totalmente responsivo, utilizando **CSS Grid** para a estrutura principal e **Flexbox** para componentes internos. Foram definidos múltiplos breakpoints para garantir a adaptação em diferentes tamanhos de tela.
 *   **Componentes Reutilizáveis:** Foram desenvolvidos componentes de interface como cards para projetos, botões com diferentes estados (`:hover`, `:focus`, etc.) e um menu de navegação responsivo com submenu (dropdown) e versão mobile (hambúrguer).
 
 ### Entrega III – Interatividade e Funcionalidades (JavaScript)
